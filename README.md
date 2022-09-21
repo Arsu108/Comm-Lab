@@ -1,2 +1,6 @@
 # Comm_Lab_Film_Festival_Website_AA
  This is the first draft of the portfolio website for Communication Lab class at NYUAD. For now, it just includes the initial film trailer on the website.
+
+Project: Communication Lab FILM FESTIVAL
+Project Description: This is the first draft of the portfolio website for Communication Lab class at NYUAD. For now, it just includes the initial film trailer on the website. For this project, I made a lot changes to my initial web frame. However, I have achieved what I was expecting through this draft. The theme is simple and user friendly, I have included few interaction or navigation buttons that take the user to the different sections of the website. I am not using Jquery for this website and have only limited the use of html and css. Moreover, I am using ionicons open based license icons to import the icons to give a better look to the website.
+Process: Starting from the header, I just started with the home page or default screen. For this, I was able to make the background picture moveable as when user is scrolling through it the picture moves. Same goes for the picture that I have inserted in the background for the story behind. Moving on, I defined different styles for each of the <h> tags and p tag. Then, using section names, I was able to change the background for each of the section to make it look more aesthetic. 
