@@ -1,0 +1,379 @@
+/*------------------------------*/
+/* BASIC STUFF */
+/*------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-image: url(img/overall_bg.jpg);
+    color: #606060;
+    font-family: 'Roboto','Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------------*/
+/* REUSABLE STUFF */
+/*------------------------------*/
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;                        
+}
+
+section{
+    padding: 80px 0;
+}
+
+/*------- HEADINGS MODIFICATION --------*/
+
+h1,
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 230%;
+    word-spacing: 5px;
+}
+h2{
+    font-size: 200%;
+    text-align: center;
+    word-spacing: 3px;
+    margin-bottom: 10px;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #9400d3;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 15px;   
+}
+
+h3,
+h4,
+h5{
+    font-size: 120%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h5{
+    margin: 0 0;
+}
+h4{
+    margin: 15px auto;
+}
+h6{
+    font-size: 120%;
+    text-align: center;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-top:
+}
+/*--------P TAG -------*/
+.basic-text{
+    text-align: center;
+    width: 70%;
+    margin:0 15%;
+    font-size: 120%;
+    font-variant: small-caps;
+}
+.box p{
+    margin-top: 10px;
+    font-size: 90%;
+    line-height: 145%;
+    margin-left: 8.5%;
+    width: 83%;
+    text-align: center;
+}
+
+.box4 p {
+    margin-bottom: 50px;
+    font-size: 105%;
+    line-height: 145%;
+    margin-left: 8.5%;
+    width: 83%;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+/*-------IONICONS MODIFICATION --------*/
+
+.box ion-icon{
+    font-size: 220%;
+    color: #9400d3;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.box4  i{
+    font-size: 300%;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #9400d3;
+}
+
+
+
+/*--------BUTTON MODIFICATION-------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #9400d3;
+    transition: background-color 0.2s, border 0.2s, color 0.4s;
+}
+
+.main-btn:link, 
+.main-btn:visited,
+input[type=submit] {
+    background-color: #9400d3;
+    color: #fff;
+}
+
+.second-btn:link,
+.second-btn:visited{
+    color: #9400d3;
+    margin-left: 7px;
+}
+
+.btn:active,
+.btn:hover,
+input[type=submit]:active,
+input[type=submit]:hover{
+    background-color: #ee82ee;
+    border: 1px solid #ee82ee;
+}
+
+.second-btn:active,
+.second-btn:hover{
+    color: #fff;
+    
+}
+
+
+/*-------HEADER MODIFICATION --------*/
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(img/headerbg.jpeg);
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.home-screen {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 90px;
+    float: left;
+    
+}
+
+.nav-menu {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.nav-menu li{
+    display: inline-block;
+    margin-left: 90px;
+}
+.nav-menu li a:link,
+.nav-menu li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px #9400d3 transparent
+    font-size: 100%;
+    font-weight: 400;
+    transition: border-bottom 0.2s;
+}
+.nav-menu li a:active,
+.nav-menu li a:hover {
+    border-bottom: 2px #9400d3 solid
+    
+}
+
+
+
+
+
+/*------------------------------*/
+/* Story Behind */
+/*------------------------------*/
+.story_behind {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.45)), url("img/story-behind.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+blockquote{
+    padding: 5%;
+    line-height: 145%;
+    font-size: 108%;
+    text-align: justify;
+    margin-top: 90px;
+    position: relative;
+}
+
+
+/*------------------------------*/
+/* VIDEO*/
+/*------------------------------*/
+
+#myVideo {
+    position: relative;
+    right: 15%;
+    left: 15%;
+    bottom: 20px;
+    top: 50px;
+    display: block;
+    width: 70%;
+    height: 70%;
+    border: 2px;
+    border-radius: 40px
+}
+
+
+
+/*------------------------------*/
+/* our Team*/
+/*------------------------------*/
+
+.our-team{
+    background-color: #f4f4f4;
+}
+.box3 {
+    padding: 10px;
+}
+.box3 img {
+    height: 340px;
+    width: 340px;
+    filter:grayscale(100%);
+    transition: filter 0.4s;
+}
+.box3 img:hover{
+    filter:none;
+}
+.box3 p{
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+    font-variant: small-caps;
+}
+
+
+
+
+
+/*------------------------------*/
+/* Review-form*/
+/*------------------------------*/
+
+.contact-form {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+}
+textarea{
+    height: 100%;
+}
+
+/*------------------------------*/
+/*Footer*/
+/*------------------------------*/
+footer {
+    background-color: #555;
+    padding: 60px;
+    
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:visited,
+.social-links li a:link{
+    text-decoration: none;
+    border: 0;
+    color: #b1b1b1;
+    transition: color 0.2s;
+}
+
+.social-links li a:visited,
+.social-links li a:link{
+    font-size: 150%;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #fff
+}
+
+.social-links li a:hover,
+.social-links li a:active{
+    color: #000000;
+}
+footer p{
+    color: #b1b1b1;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 40px;
+}

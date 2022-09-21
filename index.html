@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="Other/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="Other/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="Other/css/bootstrap-grid.css.map">
+        <link rel="stylesheet" type="text/css" href="Main/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <img src="resources/css/img/logo-lowres1.png" alt="NYUAD LOGO" class="logo">
+                <div class=row>
+                    <ul class="nav-menu">
+                        <li><a href="#teambehind"> Team Behind </a></li>
+                        <li><a href="#storybehind"> Story Behind </a></li>
+                    </ul>
+                
+                </div>
+            </nav>
+            <div class="home-screen">
+                <h1>COMMUNICATION LAB FILM FESTIVAL!<br>Presenting you the movie of the year </h1>
+                <a class="btn main-btn" href="#contactus">Contact Us</a> 
+                <a class="btn second-btn" href="#watchnow">Watch Now</a> 
+            </div>
+        </header>
+       
+       <a name="watchnow"></a>
+        <video controls id="myVideo">
+            <source src="main.mp4" type="video/mp4">
+        </video>
+
+        <section class="reviews">
+            <div class="row">
+                <h2>Reviews</h2>          
+            </div>
+            
+            <div class="row">
+                <div class="col span_1_of_4 box">
+                    <ion-icon name="thumbs-up-outline"></ion-icon>
+                    <h3>Aakrsh Chopra</h3>
+                    <p>I want the full movie! So Dramatic!!</p>                
+                </div> 
+                <div class="col span_1_of_4 box">
+                    <ion-icon name="thumbs-up-outline"></ion-icon>
+                    <h3>Ivan Kalanoski</h3>
+                    <p>OMG! What a dramatic ending!</p>                
+                </div>
+                <div class="col span_1_of_4 box">
+                    <ion-icon name="thumbs-up-outline"></ion-icon>
+                    <h3>Sara Ali</h3>
+                    <p>Please Upload the full movie:( CAN'T WAIT FOR IT</p>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <ion-icon name="thumbs-up-outline"></ion-icon>
+                    <h3>Chris Wood</h3>
+                    <p>Great Project! Loved the concept!</p>                
+                </div>
+                </div>
+        </section>
+        
+        <a name="storybehind"></a>
+        <section class="story_behind">
+            <div class="row">
+                <h2>Wanna know the story behind our film&#63;</h2>
+                <p class="basic-text">This film was recored for the Communication Lab Film Festival at New York University Abu Dhabi. Saira, the girl in the hijab lost her husband few months ago and is calling her husband's sister to console her. When Saira asks the sister of her husband to meet her, they both agree on that. Plot Twist!!  The sister thinks that Saira is behind the death of her brother and the death wasn't simply a result of an accident. She wants the REVENGE. As she heads to Saira's place to kill her. BAM!! Another plot twist, turns out that Saira has a lesbian lover who would go to any extent to protect her. Thank you for all the positive feedback on the trailer. We'll soon be releasing the full movie. </p>
+            </div>
+            
+            </div>
+        </section>
+        </section>
+        
+        
+
+            
+        <a name="teambehind"></a>
+        <section class="our-team">
+            <div class="row">
+                <h2> Team Behind </h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 box3">
+                    <img src="Main/img/Director.jpg" alt="director">
+                    <h5>Tom Riddle</h5>
+                    <p>Director</p>
+                </div>
+                <div class="col span-1-of-3 box3">
+                    <img src="Main/img/Director2.jpeg" alt="director">
+                    <h5>Severus Snape</h5>
+                    <p>Actor</p>
+                </div>
+                <div class="col span-1-of-3 box3">
+                    <img src="Main/img/Editor.jpeg" alt="editor">
+                    <h5>Albus Dumbledore</h5>
+                    <p>Editor</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        <a name="contactus"></a>
+        <section class="section-form">
+            <div class="row">
+            <h2>Leave us a review!</h2>
+            </div>
+            <div class="row">
+                <form method="post" action=”mailto:arslanasghar0005@gmail.com” method="POST" enctype="text/plain" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="e.g. John, Ali" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="e.g. ma6610@nyu.edu" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Phone-number">Phone Number</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="Phone-number" id="Phone-number" placeholder="e.g. +9232132323231" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Your Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message here"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#contactus">Leave us a review</a></li>
+                        <li><a href="#teambehind">Team Behind</a></li>
+                        <li><a href="#storybehind">Story Behind</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+            <p>&copy Copyright 2022, NYUAD Pvt Ltd</p>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+
+</html>
+
